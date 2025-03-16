@@ -1,0 +1,70 @@
+#az{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: tomato;
+}
+.sec1{
+    border-style: groove;
+    border-width: 3px;
+    border-color: black;
+    background-color: grey;
+}
+.sec2{
+    border-style: groove;
+    border-width: 3px;
+    border-color: black;
+    background-color: grey;
+}
+.sec3{
+    border-style: groove;
+    border-width: 3px;
+    border-color: black;
+    background-color: grey;
+}
+.sec1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: -2px;
+    margin-right: -2px;
+    background-color: burlywood;
+    color: black;
+}
+.sec2 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: -2px;
+    margin-right: -2px;
+    background-color: rgb(242, 77, 77);
+    color: white;
+}
+.sec3 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: -2px;
+    margin-right: -2px;
+    background-color: rgb(245, 160, 49);
+    color: black;
+}
+#div1{
+    display: flex;
+}
+#div1 div{
+    margin-top: 100px;
+    margin-right: 30px;
+    margin-left: 10px;
+    text-align: left;
+}
+#div1 div p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
