@@ -1,0 +1,47 @@
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.tall-section {
+    background-color: grey;
+    padding: 20px;
+    margin: 15px;
+    height: 1000px; /* Adjust height as needed */
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #333;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: grey;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: grey;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: grey;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: grey;
+}
+
+.navbar-collapse {
+    padding: 0;
+}
+
+.navbar-nav {
+    margin: 0 -15px;
+}
+
+.navbar-nav > li > a {
+    padding: 10px 15px;
+    border-bottom: 1px solid grey;
+}
+
+.navbar-nav > li:last-child > a {
+    border-bottom: none;
+}
