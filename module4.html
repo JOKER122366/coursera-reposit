@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Module 4 Solution - Tout-en-un</title>
+</head>
+<body>
+  <script>
+    // SpeakHello.js
+    var helloSpeaker = {
+      speakWord: "Hello",
+      speak: function (name) {
+        console.log(this.speakWord + " " + name);
+      }
+    };
+
+    // SpeakGoodBye.js
+    var byeSpeaker = {
+      speakWord: "Good Bye",
+      speak: function (name) {
+        console.log(this.speakWord + " " + name);
+      }
+    };
+
+    // script.js
+    (function () {
+      var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+
+      for (var i = 0; i < names.length; i++) {
+        var name = names[i];
+        var firstLetter = name.charAt(0).toLowerCase();
+
+        if (firstLetter === 'j') {
+          byeSpeaker.speak(name);
+        } else {
+          helloSpeaker.speak(name);
+        }
+      }
+    })();
+  </script>
+</body>
+</html>
